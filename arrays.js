@@ -25,14 +25,14 @@ function destructivelyRemoveElementFromBeginningOfArray(array, element) {
   return array
 }
 function removeElementFromBeginningOfArray(array, element) {
-  array.slice(element)
-  return array
+  array.slice()
+  return element
 }
 function destructivelyRemoveElementFromEndOfArray(array, element) {
   array.pop(element)
   return array
 }
 function removeElementFromEndOfArray(array, element) {
-  array.slice(0, array.length-1)
+  array.slice()
   return array
 }
